@@ -20,8 +20,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Direct Line",
-    value: "+91 98765 43210",
-    link: "tel:+919876543210",
+    value: "+91 75079 05976",
+    link: "tel:+917507905976",
   },
   {
     icon: MapPin,
