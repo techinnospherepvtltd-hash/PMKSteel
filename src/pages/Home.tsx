@@ -10,7 +10,7 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 
 const stats = [
-  { value: 100000, suffix: "+", label: "Metric Tons Processed Annually" },
+  { value: 100000, suffix: "+", label: "Metric Tons Processed until 2025" },
   { value: 2000, suffix: "+", label: "Industrial Partnerships" },
   { value: 30, suffix: "+", label: "Years of Market Leadership" },
 ];
