@@ -12,24 +12,24 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () => (
-  // <QueryClientProvider client={queryClient}>
-  //   <TooltipProvider>
-  //     <Toaster />
-  //     <Sonner />
-  //     {/* <BrowserRouter> */}
-  //       <Routes>
-  //         <Route path="/" element={<Home />} />
-  //         <Route path="/about" element={<About />} />
-  //         <Route path="/services" element={<Services />} />
-  //         <Route path="/contact" element={<Contact />} />
-  //         <Route path="*" element={<NotFound />} />
-  //       </Routes>
-  //     {/* </BrowserRouter> */}
-  //   </TooltipProvider>
-  // </QueryClientProvider>
-  <div style={{ padding: 40, color: "red", fontSize: 32 }}>
-    PMK SITE IS RENDERING
-  </div>
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      {/* <BrowserRouter> */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      {/* </BrowserRouter> */}
+    </TooltipProvider>
+  </QueryClientProvider>
+  // <div style={{ padding: 40, color: "red", fontSize: 32 }}>
+  //   PMK SITE IS RENDERING
+  // </div>
 );
 
 export default App;
