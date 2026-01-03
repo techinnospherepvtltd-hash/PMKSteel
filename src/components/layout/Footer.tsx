@@ -58,7 +58,7 @@ export function Footer() {
               </a>
               <a href="tel:+919876543210" className="flex items-center gap-3 text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 <Phone className="w-4 h-4" />
-                +91 98765 43210
+                +91 75079 05976
               </a>
             </div>
           </motion.div>
